@@ -43,7 +43,9 @@
 			chicagofootnotes			% para notas com número e ponto cf. man. de Chicago
 			]{edlab-footnotes}
 
-\usepackage[labelformat=empty]{caption}
+\usepackage{caption}
+\DeclareCaptionFont{formular}{\formular}
+\captionsetup{labelformat=empty, font={footnotesize,formular}}
 
 % Medidas (ver: memoir p.11 fig.2.3)
 \parindent=3ex			% Tamanho da indentação
